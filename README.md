@@ -9,7 +9,7 @@ Musculoskeletal conditions affect more than 1.7 billion people worldwide, and ar
 MURA is one of the largest public radiographic image datasets. We're making this dataset available to the community and hosting a competition to see if your models can perform as well as radiologists on the task.
 
 ## Folder Structure
-
+```
 - MURA-v1.1
   - train/
     -  Elbow/
@@ -29,7 +29,7 @@ MURA is one of the largest public radiographic image datasets. We're making this
     - ..
   - csv files
   - model.ipynb
-  
+```
 ## Usage
 - MURA.ipynb has the model
 - data_preprocessing.ipynb has the EDA 
@@ -41,8 +41,9 @@ MURA is one of the largest public radiographic image datasets. We're making this
 - PIL
 - OpenCV
 
-## TODO
-[ ] Get a GPU to train model
-[ ] Add Attention
-[ ] Experiment with Other Augmentations 
-[ ] Add Cyclic LR
+## TODO 
+
+- [ ] Get a GPU to train model <br>
+- [ ] Add Attention<br>
+- [ ] Experiment with Other Augmentations <br>
+- [ ] Add Cyclic LR<br>
